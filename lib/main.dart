@@ -22,14 +22,15 @@ class MyApp extends StatelessWidget {
       // home: comst Login(),
       routes: {
        // halaman utama awal aplikasi dibuka
-       "/" :(context) => const  MyHomePage()
+       "/" :(context) => const  LoginPage(),
        //pengenalan rute ke halaman homepage
-       
+       "/home" :(context) => MyHomePage(),
       }
+    );
+  }
+}
 
 
     
       
-    );
-  }
-}
+   
