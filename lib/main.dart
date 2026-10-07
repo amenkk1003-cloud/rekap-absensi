@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'loginrekap.dart';
 
 void main() {
@@ -8,14 +9,18 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData( 
+        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 255, 181, 84)),
+      ),
+      home: 
+      const LoginPage(),
+    
+      
     );
   }
-}
-
-class LoginRekap {
-  const LoginRekap();
 }
