@@ -17,8 +17,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData( 
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 255, 181, 84)),
       ),
-      home: 
-      const LoginPage(),
+      
+      // Home bisa dikomentar atau dihapus
+      // home: comst Login(),
+      routes: {
+       // halaman utama awal aplikasi dibuka
+       "/" :(context) => const  MyHomePage()
+       //pengenalan rute ke halaman homepage
+       
+      }
+
+
     
       
     );
