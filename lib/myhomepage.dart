@@ -12,7 +12,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("rekapabsensi")),
-      backgroundColor: Color.fromARGB(172, 219, 116, 116)
+      backgroundColor: Color.fromARGB(172, 245, 225, 136),
+      body:Column(
+        children: [],)
     );
   }
     
