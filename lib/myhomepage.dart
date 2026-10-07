@@ -10,8 +10,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text("Rekap Absensi")));
-    
+    return Scaffold(
+      appBar: AppBar(title: Text("rekapabsensi")),
+      backgroundColor: Color.fromARGB(172, 154, 154, 100)
+    );
   }
     
 }
